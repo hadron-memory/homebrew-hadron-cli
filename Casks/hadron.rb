@@ -1,15 +1,15 @@
-# Bumped manually from hadron-cli v0.1.0 checksums.txt; once the
+# Bumped manually from hadron-cli v0.2.0 checksums.txt; once the
 # HOMEBREW_TAP_TOKEN secret is configured in hadron-cli, goreleaser
 # rewrites this file on every release (see hadron-cli/.goreleaser.yaml).
 cask "hadron" do
-  version "0.1.0"
+  version "0.2.0"
 
   on_intel do
-    sha256 "3a483e26d87a4c8b40da658078ba3667759ae612bba9253043c49a6fb97cce59"
+    sha256 "599e95ea1caa75e6842734469fda74d7d3dcf1bb810752226f2dbe2cd501f0de"
     url "https://github.com/hadron-memory/hadron-cli/releases/download/v#{version}/hadron_#{version}_darwin_amd64.tar.gz"
   end
   on_arm do
-    sha256 "468bb7d02d9cbd0fb747ed7923d920a539a283bee3b1eedf80170cb84e96befa"
+    sha256 "8da5eb769b0815d3597803aa2660f812c00406a3d22089b4fecf57aa0f404182"
     url "https://github.com/hadron-memory/hadron-cli/releases/download/v#{version}/hadron_#{version}_darwin_arm64.tar.gz"
   end
 
