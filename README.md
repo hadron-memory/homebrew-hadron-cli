@@ -1,9 +1,9 @@
-# hadron-memory/homebrew-tap
+# hadron-memory/homebrew-hadron-cli
 
-Homebrew tap for [Hadron](https://hadronmemory.com) tooling.
+Homebrew tap for the [Hadron](https://hadronmemory.com) CLI.
 
 ```sh
-brew tap hadron-memory/tap
+brew tap hadron-memory/hadron-cli
 brew install --cask hadron
 ```
 
